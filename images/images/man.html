@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<!-- saved from url=(0091)https://www.vectorstock.com/royalty-free-vector/man-in-uniform-icon-cartoon-vector-13630524 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<script type="text/javascript" async="" src="./man_files/f.txt" nonce="iXl0UD9DaZtRZIYkLJZJXmVysWYGByaCURtHIKLA61k="></script><script type="text/javascript" async="" src="./man_files/analytics.js.download" nonce="iXl0UD9DaZtRZIYkLJZJXmVysWYGByaCURtHIKLA61k="></script><script type="text/javascript" async="" src="./man_files/analytics.js.download" nonce="iXl0UD9DaZtRZIYkLJZJXmVysWYGByaCURtHIKLA61k="></script><script type="text/javascript" async="" src="./man_files/recaptcha__en_gb.js.download" crossorigin="anonymous" integrity="sha384-fpDzZhw+8Its9jPDAqzH+aeuO/ii6oihuGg44AHDtrxFz3+r5jEjjHfVb+tRiJcp" nonce="iXl0UD9DaZtRZIYkLJZJXmVysWYGByaCURtHIKLA61k="></script><script type="text/javascript" async="" src="./man_files/js" nonce="iXl0UD9DaZtRZIYkLJZJXmVysWYGByaCURtHIKLA61k="></script><script type="text/javascript" async="" src="./man_files/js(1)" nonce="iXl0UD9DaZtRZIYkLJZJXmVysWYGByaCURtHIKLA61k="></script><script type="text/javascript" async="" src="./man_files/js(2)" nonce="iXl0UD9DaZtRZIYkLJZJXmVysWYGByaCURtHIKLA61k="></script><script type="text/javascript" nonce="iXl0UD9DaZtRZIYkLJZJXmVysWYGByaCURtHIKLA61k=">(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(7),c=e(8),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(9);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e){return!(!e||!e.protocol||"file:"===e.protocol)}t.exports=r},{}],4:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(6),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,w=["click","keydown","mousedown","pointerdown","touchstart"];w.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],5:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],6:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],7:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],8:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],9:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?u(e,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){e&&a&&e(n,r,i);for(var c=t(i),f=v(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[h[n]];return p&&p.push([b,n,r,c]),c}}function o(e,t){y[e]=v(e).concat(t)}function m(e,t){var n=y[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return y[e]||[]}function g(e){return p[e]=p[e]||i(n)}function w(e,t){s(e,function(e,n){t=t||"feature",h[n]=t,t in d||(d[t]=[])})}var y={},h={},b={on:o,addEventListener:o,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:w,abort:c,aborted:!1};return b}function o(e){return u(e,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=e("gos"),s=e(7),d={},p={},l=t.exports=i();t.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=x.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+x.offset],null,"api"),c("timing",["load",n]);var r=l.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===l.readyState&&o()}function o(){c("mark",["domContent",a()+x.offset],null,"api")}var a=e(2),c=e("handle"),f=e(7),u=e("ee"),s=e(5),d=e(3),p=window,l=p.document,m="addEventListener",v="attachEvent",g=p.XMLHttpRequest,w=g&&g.prototype;if(d(p.location)){NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:g,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1208.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:b,userAgent:s};e(1),e(4),l[m]?(l[m]("DOMContentLoaded",o,!1),p[m]("load",r,!1)):(l[v]("onreadystatechange",i),p[v]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0}},{}],"wrap-function":[function(e,t,n){function r(e,t){function n(t,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],e)}c(n+"start",[o,a,f],s,u);try{return p=t.apply(a,o)}catch(m){throw c(n+"err",[o,a,m],s,u),m}finally{c(n+"end",[o,a,p],s,u)}}return a(t)?t:(n||(n=""),nrWrapper[p]=t,o(t,nrWrapper,e),nrWrapper)}function r(e,t,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<t.length;u++)f=t[u],c=e[f],a(c)||(e[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!m||t){var c=m;m=!0;try{e.emit(n,r,o,t,a)}catch(f){i([f,n,r,o],e)}m=c}}return e||(e=s),n.inPlace=r,n.flag=p,n}function i(e,t){t||(t=s);try{t.emit("internal-error",e)}catch(n){}}function o(e,t,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(e);return r.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(o){i([o],n)}for(var a in e)l.call(e,a)&&(t[a]=e[a]);return t}function a(e){return!(e&&e instanceof Function&&e.apply&&!e[p])}function c(e,t){var n=t(e);return n[p]=e,o(e,n,s),n}function f(e,t,n){var r=e[t];e[t]=c(r,n)}function u(){for(var e=arguments.length,t=new Array(e),n=0;n<e;++n)t[n]=arguments[n];return t}var s=e("ee"),d=e(8),p="nr@original",l=Object.prototype.hasOwnProperty,m=!1;t.exports=r,t.exports.wrapFunction=c,t.exports.wrapInPlace=f,t.exports.argsToArray=u},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf609755108ccdd">
+	<meta name="csrf-value" content="6cec76eff09c6aa09897383f086e57b8">
+	
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+	
+	<link rel="dns-prefetch" href="https://cdn.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn1.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn2.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn3.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn4.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn5.vectorstock.com/">
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+
+	<title>Man in uniform icon cartoon Royalty Free Vector Image</title>
+	<meta name="description" content="Man in uniform icon in cartoon style isolated vector illustration. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions..">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/man-in-uniform-icon-cartoon-vector-13630524">
+	<meta property="og:title" content="Man in uniform icon cartoon vector image on VectorStock">
+	<meta property="og:description" content="Man in uniform icon in cartoon style isolated vector illustration. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+	<meta property="og:image" content="https://cdn5.vectorstock.com/i/1000x1000/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg">
+	<meta property="og:image:url" content="https://cdn5.vectorstock.com/i/1000x1000/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg">
+	<meta property="og:image:secure_url" content="https://cdn5.vectorstock.com/i/1000x1000/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="744">
+	<meta property="og:image:height" content="1000">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/man-in-uniform-icon-cartoon-vector-13630524">
+	<meta name="twitter:title" content="Man in uniform icon cartoon vector image">
+	<meta name="twitter:description" content="Man in uniform icon in cartoon style isolated vector illustration">
+	<meta name="twitter:image" content="https://cdn5.vectorstock.com/i/thumb-large/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/man-in-uniform-icon-cartoon-vector-13630524">
+
+	<link rel="stylesheet" type="text/css" href="./man_files/common1620087564.min.css">
+	<link rel="stylesheet" type="text/css" href="./man_files/vector1620087564.min.css">
+	<script async="" src="./man_files/js(3)"></script>
+	<script src="./man_files/common1620087564.min.js.download"></script>
+	<script src="./man_files/vector1620087564.min.js.download"></script>
+	<script src="./man_files/api.js.download" async="" defer=""></script>
+</head>
+<body>
+
+<!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search…" maxlength="50" autofocus="">
+								<button type="button" data-action="clear">×</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					<div class="suggestions"><div></div></div></fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="https://www.vectorstock.com/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+		<nav id="searchrelated"></nav>	
+
+		<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+							<ul>
+								<li><a href="https://www.vectorstock.com/signup">Sign Up</a></li>
+								<li data-action="login"><a href="https://www.vectorstock.com/?login=1">Login…</a></li>
+								<li><a href="https://www.vectorstock.com/pricing">Pricing</a></li>
+							</ul>
+						</li>
+				</ul>
+				<form method="get" action="https://www.vectorstock.com/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="https://www.vectorstock.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Log In</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We're the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you're a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="https://www.vectorstock.com/signup">Sign up now, it’s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="https://www.vectorstock.com/auth/login" method="post">
+
+
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2" maxlength="72">
+						</div>
+					</fieldset>
+					<fieldset>
+						<div class="checkbox checked">
+							<label class="selected" for="vs_remember">
+								<span class="title">Stay Logged In</span>
+								<span class="icon"></span>
+								<input type="checkbox" id="vs_remember" name="vs_remember" value="yes" tabindex="3" checked="">
+							</label>
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Log In</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="https://www.vectorstock.com/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="https://www.vectorstock.com/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+				
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset" style="min-height: 676px; max-width: 414.957px;">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1">
+					</li>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors/man-vectors">
+							<span itemprop="name">Man Vectors</span>
+						</a>
+						<meta itemprop="position" content="2">
+					</li>
+				</ol>
+
+				<h1>
+					Man in uniform icon cartoon vector&nbsp;image																			</h1>
+
+				<figure style="padding-top: 132.50785340314%;" class="target error">
+					<div class="highres" data-src="https://cdn5.vectorstock.com/i/1000x1000/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg">
+						<noscript><img src="https://cdn5.vectorstock.com/i/1000x1000/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg" title="Man in uniform icon cartoon vector image" alt="Man in uniform icon cartoon"></noscript>
+					</div>
+					<div class="lowres">
+						<img src="./man_files/man-in-uniform-icon-cartoon-vector-13630524.jpg" title="Man in uniform icon cartoon vector image" alt="Man in uniform icon cartoon">
+					<div><p>High-res image couldn’t load</p></div></div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="13630524">
+					<input type="hidden" id="vector_title" value="Man in uniform icon cartoon">
+					<input type="hidden" id="vector_description" value="Man in uniform icon in cartoon style isolated vector illustration. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/man-in-uniform-icon-cartoon-vector-13630524">
+					<input type="hidden" id="vector_media" value="https://cdn5.vectorstock.com/i/1000x1000/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg">
+					<input type="hidden" id="vector_ratio" value="1.3350785340314">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="JuliarS">
+					<input type="hidden" id="account_user" value="0">
+
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;},{&quot;type&quot;:&quot;dropbox&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="https://www.vectorstock.com/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset>
+									<label for="f_license_standard" class="checked">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">For Print, Advertising, Design</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">For Resale &amp; Reproduction</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Unlimited Runs</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset>
+									<label for="f_payment_standard_single-image" class="checked">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image" checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69c</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset>
+									<label for="f_payment_expanded_single-image" class="checked">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">New Option!</span><a href="https://www.vectorstock.com/faq/members/what-is-hire-a-designer">What is this?</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>$</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We’ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="portrait" style="padding-top: 132.50785340314%;" class="target error">
+					<div class="highres" data-src="https://cdn5.vectorstock.com/i/1000x1000/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg">
+						<noscript><img src="https://cdn5.vectorstock.com/i/1000x1000/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg" title="Man in uniform icon cartoon vector image" alt="Man in uniform icon cartoon"></noscript>
+					</div>
+					<div class="lowres">
+						<img src="./man_files/man-in-uniform-icon-cartoon-vector-13630524.jpg" title="Man in uniform icon cartoon vector image" alt="Man in uniform icon cartoon">
+					<div><p>High-res image couldn’t load</p></div></div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<h4>Share with others</h4>
+							<ul>
+								<li class="pinterest"><button type="button" data-action="pinterest"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"></path></svg></span><span class="label">Pinterest</span></span></button></li>
+								<li class="facebook"><button type="button" data-action="facebook"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"></path></svg></span><span class="label">Facebook</span></span></button></li>
+								<li class="twitter"><button type="button" data-action="twitter"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"></path></svg></span><span class="label">Twitter</span></span></button></li>
+								<li class="email"><button type="button" data-action="email"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.48,4.17H2.52C1.13,4.17,0,5.3,0,6.69v11.62c0,1.39,1.13,2.52,2.52,2.52h19.96c1.39,0,2.52-1.13,2.52-2.52V6.69C25,5.3,23.87,4.17,22.48,4.17z M23.49,18.31c0,0.56-0.45,1.01-1.01,1.01H2.52c-0.55,0-1.01-0.45-1.01-1.01V6.69c0-0.56,0.45-1.01,1.01-1.01h19.96c0.56,0,1.01,0.45,1.01,1.01V18.31z"></path><path d="M19.95,7.95l-7.45,4.83L5.05,7.95C4.7,7.72,4.24,7.82,4.01,8.17C3.78,8.52,3.88,8.99,4.23,9.22l7.86,5.1c0.13,0.08,0.27,0.12,0.41,0.12s0.29-0.04,0.41-0.12l7.86-5.1c0.35-0.23,0.45-0.7,0.22-1.05C20.77,7.82,20.3,7.72,19.95,7.95z"></path></svg></span><span class="label">Email</span></span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>13630524</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_JuliarS" rel="nofollow">JuliarS</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">♥</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope="">
+					<img src="./man_files/man-in-uniform-icon-cartoon-vector-13630524(1).jpg" itemprop="contentUrl" alt="Man in uniform icon cartoon vector">
+					<meta itemprop="url" content="https://cdn5.vectorstock.com/i/1000x1000/05/24/man-in-uniform-icon-cartoon-vector-13630524.jpg">
+					<meta itemprop="name" content="Man in uniform icon cartoon">
+					<meta itemprop="description" content="Man in uniform icon in cartoon style isolated vector illustration. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions. vector image">
+					<meta itemprop="datePublished" content="2017-03-13">
+					<meta itemprop="fileFormat" content="image/jpeg">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/man-in-uniform-icon-cartoon-vector-13630524">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+			
+		</section>
+
+
+		<section id="vs-related">
+						<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/78/88/cook-characters-chef-at-kitchen-cooking-various-vector-22367888.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/cook-characters-chef-at-kitchen-cooking-various-vector-22367888" title="cook characters chef at kitchen cooking various vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/78/88/cook-characters-chef-at-kitchen-cooking-various-vector-22367888.jpg" title="cook characters chef at kitchen cooking various" alt="cook characters chef at kitchen cooking various vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/10/58/chef-in-restaurant-kitchen-cooking-cute-cook-in-vector-21461058.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/chef-in-restaurant-kitchen-cooking-cute-cook-in-vector-21461058" title="chef in restaurant kitchen cooking cute cook in vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/10/58/chef-in-restaurant-kitchen-cooking-cute-cook-in-vector-21461058.jpg" title="chef in restaurant kitchen cooking cute cook in" alt="chef in restaurant kitchen cooking cute cook in vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/35/33/pastry-chef-with-cake-and-cakes-flat-vector-31083533.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/pastry-chef-with-cake-and-cakes-flat-vector-31083533" title="pastry chef with cake and cakes flat vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/35/33/pastry-chef-with-cake-and-cakes-flat-vector-31083533.jpg" title="pastry chef with cake and cakes flat" alt="pastry chef with cake and cakes flat vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/13/34/cooking-baking-recipe-chef-cook-food-concept-vector-35001334.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/cooking-baking-recipe-chef-cook-food-concept-vector-35001334" title="cooking baking recipe chef cook food concept vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/13/34/cooking-baking-recipe-chef-cook-food-concept-vector-35001334.jpg" title="cooking baking recipe chef cook food concept" alt="cooking baking recipe chef cook food concept vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/88/90/retro-chef-beard-hat-cartoon-playful-logo-icon-vector-36468890.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/retro-chef-beard-hat-cartoon-playful-logo-icon-vector-36468890" title="retro chef beard hat cartoon playful logo icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/88/90/retro-chef-beard-hat-cartoon-playful-logo-icon-vector-36468890.jpg" title="retro chef beard hat cartoon playful logo icon" alt="retro chef beard hat cartoon playful logo icon vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/90/30/young-and-pretty-woman-vector-23699030.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/young-and-pretty-woman-vector-23699030" title="young and pretty woman vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/90/30/young-and-pretty-woman-vector-23699030.jpg" title="young and pretty woman" alt="young and pretty woman vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/86/36/male-chef-logo-design-vector-32088636.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/male-chef-logo-design-vector-32088636" title="male chef logo design vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/86/36/male-chef-logo-design-vector-32088636.jpg" title="male chef logo design" alt="male chef logo design vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/30/38/cute-chef-avatar-in-variety-such-as-pastry-chef-vector-22313038.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/cute-chef-avatar-in-variety-such-as-pastry-chef-vector-22313038" title="cute chef avatar in variety such as pastry chef vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/30/38/cute-chef-avatar-in-variety-such-as-pastry-chef-vector-22313038.jpg" title="cute chef avatar in variety such as pastry chef" alt="cute chef avatar in variety such as pastry chef vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/53/66/set-professional-cooking-people-icons-in-vector-13465366.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/set-professional-cooking-people-icons-in-vector-13465366" title="set professional cooking people icons in vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/53/66/set-professional-cooking-people-icons-in-vector-13465366.jpg" title="set professional cooking people icons in" alt="set professional cooking people icons in vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/84/33/cartoon-moustached-italian-chef-in-cook-cap-vector-5758433.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-moustached-italian-chef-in-cook-cap-vector-5758433" title="cartoon moustached italian chef in cook cap vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/84/33/cartoon-moustached-italian-chef-in-cook-cap-vector-5758433.jpg" title="cartoon moustached italian chef in cook cap" alt="cartoon moustached italian chef in cook cap vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/73/04/smiling-chef-cook-icon-in-hat-vector-11457304.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/smiling-chef-cook-icon-in-hat-vector-11457304" title="smiling chef cook icon in hat vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/73/04/smiling-chef-cook-icon-in-hat-vector-11457304.jpg" title="smiling chef cook icon in hat" alt="smiling chef cook icon in hat vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/94/38/chefs-cooking-and-serving-various-food-set-vector-27379438.jpg" class="error"><a href="https://www.vectorstock.com/royalty-free-vector/chefs-cooking-and-serving-various-food-set-vector-27379438" title="chefs cooking and serving various food set vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/94/38/chefs-cooking-and-serving-various-food-set-vector-27379438.jpg" title="chefs cooking and serving various food set" alt="chefs cooking and serving various food set vector image"></noscript><span class="icon">!</span></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/26/52/master-cook-logo-vector-21072652.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/master-cook-logo-vector-21072652" title="master cook logo vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/26/52/master-cook-logo-vector-21072652.jpg" title="master cook logo" alt="master cook logo vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/72/44/smiling-restaurant-chefs-professional-cooks-in-vector-19627244.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/smiling-restaurant-chefs-professional-cooks-in-vector-19627244" title="smiling restaurant chefs professional cooks in vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/72/44/smiling-restaurant-chefs-professional-cooks-in-vector-19627244.jpg" title="smiling restaurant chefs professional cooks in" alt="smiling restaurant chefs professional cooks in vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/98/37/cartoon-home-and-small-vector-29709837.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-home-and-small-vector-29709837" title="cartoon home and small vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/98/37/cartoon-home-and-small-vector-29709837.jpg" title="cartoon home and small" alt="cartoon home and small vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/91/68/restaurant-bakery-chef-hat-initial-letter-c-logo-vector-29319168.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/restaurant-bakery-chef-hat-initial-letter-c-logo-vector-29319168" title="restaurant bakery chef hat initial letter c logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/91/68/restaurant-bakery-chef-hat-initial-letter-c-logo-vector-29319168.jpg" title="restaurant bakery chef hat initial letter c logo" alt="restaurant bakery chef hat initial letter c logo vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/90/09/male-professional-chef-using-frying-pan-stirring-vector-27139009.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/male-professional-chef-using-frying-pan-stirring-vector-27139009" title="male professional chef using frying pan stirring vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/90/09/male-professional-chef-using-frying-pan-stirring-vector-27139009.jpg" title="male professional chef using frying pan stirring" alt="male professional chef using frying pan stirring vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/56/02/champignon-character-with-cooker-hat-vector-22275602.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/champignon-character-with-cooker-hat-vector-22275602" title="champignon character with cooker hat vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/56/02/champignon-character-with-cooker-hat-vector-22275602.jpg" title="champignon character with cooker hat" alt="champignon character with cooker hat vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/55/01/chef-cook-in-two-poses-vector-33845501.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-cook-in-two-poses-vector-33845501" title="chef cook in two poses vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/55/01/chef-cook-in-two-poses-vector-33845501.jpg" title="chef cook in two poses" alt="chef cook in two poses vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/67/31/cartoon-pizza-chef-vector-31206731.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-pizza-chef-vector-31206731" title="cartoon pizza chef vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/67/31/cartoon-pizza-chef-vector-31206731.jpg" title="cartoon pizza chef" alt="cartoon pizza chef vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="34153127" data-title="chef man cook meal isolated cartoon character" data-src="https://cdn3.vectorstock.com/i/thumbs/31/27/chef-man-cook-meal-isolated-cartoon-character-vector-34153127.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-man-cook-meal-isolated-cartoon-character-vector-34153127" title="chef man cook meal isolated cartoon character vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/31/27/chef-man-cook-meal-isolated-cartoon-character-vector-34153127.jpg" title="chef man cook meal isolated cartoon character" alt="chef man cook meal isolated cartoon character vector image"></noscript></a></li>
+						<li data-id="23021239" data-title="chef characters cartoon chief cooking restaurant" data-src="https://cdn5.vectorstock.com/i/thumbs/12/39/chef-characters-cartoon-chief-cooking-restaurant-vector-23021239.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-characters-cartoon-chief-cooking-restaurant-vector-23021239" title="chef characters cartoon chief cooking restaurant vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/12/39/chef-characters-cartoon-chief-cooking-restaurant-vector-23021239.jpg" title="chef characters cartoon chief cooking restaurant" alt="chef characters cartoon chief cooking restaurant vector image"></noscript></a></li>
+						<li data-id="32354626" data-title="cartoon flat strong chef cook man character set" data-src="https://cdn2.vectorstock.com/i/thumbs/46/26/cartoon-flat-strong-chef-cook-man-character-set-vector-32354626.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-flat-strong-chef-cook-man-character-set-vector-32354626" title="cartoon flat strong chef cook man character set vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/46/26/cartoon-flat-strong-chef-cook-man-character-set-vector-32354626.jpg" title="cartoon flat strong chef cook man character set" alt="cartoon flat strong chef cook man character set vector image"></noscript></a></li>
+						<li data-id="22771103" data-title="cook dressed in uniform holding plate" data-src="https://cdn4.vectorstock.com/i/thumbs/11/03/cook-dressed-in-uniform-holding-plate-vector-22771103.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cook-dressed-in-uniform-holding-plate-vector-22771103" title="cook dressed in uniform holding plate vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/11/03/cook-dressed-in-uniform-holding-plate-vector-22771103.jpg" title="cook dressed in uniform holding plate" alt="cook dressed in uniform holding plate vector image"></noscript></a></li>
+						<li data-id="32389262" data-title="characters cook food set people on kitchen table" data-src="https://cdn3.vectorstock.com/i/thumbs/92/62/characters-cook-food-set-people-on-kitchen-table-vector-32389262.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/characters-cook-food-set-people-on-kitchen-table-vector-32389262" title="characters cook food set people on kitchen table vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/92/62/characters-cook-food-set-people-on-kitchen-table-vector-32389262.jpg" title="characters cook food set people on kitchen table" alt="characters cook food set people on kitchen table vector image"></noscript></a></li>
+						<li data-id="21224778" data-title="simple smile chef logo design concept template" data-src="https://cdn4.vectorstock.com/i/thumbs/47/78/simple-smile-chef-logo-design-concept-template-vector-21224778.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/simple-smile-chef-logo-design-concept-template-vector-21224778" title="simple smile chef logo design concept template vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/47/78/simple-smile-chef-logo-design-concept-template-vector-21224778.jpg" title="simple smile chef logo design concept template" alt="simple smile chef logo design concept template vector image"></noscript></a></li>
+						<li data-id="22327533" data-title="cartoon chef" data-src="https://cdn4.vectorstock.com/i/thumbs/75/33/cartoon-chef-vector-22327533.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-chef-vector-22327533" title="cartoon chef vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/75/33/cartoon-chef-vector-22327533.jpg" title="cartoon chef" alt="cartoon chef vector image"></noscript></a></li>
+						<li data-id="30407287" data-title="creative chef head moustache hat cartoon logo" data-src="https://cdn3.vectorstock.com/i/thumbs/72/87/creative-chef-head-moustache-hat-cartoon-logo-vector-30407287.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/creative-chef-head-moustache-hat-cartoon-logo-vector-30407287" title="creative chef head moustache hat cartoon logo vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/72/87/creative-chef-head-moustache-hat-cartoon-logo-vector-30407287.jpg" title="creative chef head moustache hat cartoon logo" alt="creative chef head moustache hat cartoon logo vector image"></noscript></a></li>
+						<li data-id="3125151" data-title="restaurant chef" data-src="https://cdn2.vectorstock.com/i/thumbs/51/51/restaurant-chef-vector-3125151.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/restaurant-chef-vector-3125151" title="restaurant chef vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/51/51/restaurant-chef-vector-3125151.jpg" title="restaurant chef" alt="restaurant chef vector image"></noscript></a></li>
+						<li data-id="30567020" data-title="character chef avatar set" data-src="https://cdn1.vectorstock.com/i/thumbs/70/20/character-chef-avatar-set-vector-30567020.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/character-chef-avatar-set-vector-30567020" title="character chef avatar set vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/70/20/character-chef-avatar-set-vector-30567020.jpg" title="character chef avatar set" alt="character chef avatar set vector image"></noscript></a></li>
+						<li data-id="28384937" data-title="flat a funny italian chef presenting his" data-src="https://cdn3.vectorstock.com/i/thumbs/49/37/flat-a-funny-italian-chef-presenting-his-vector-28384937.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/flat-a-funny-italian-chef-presenting-his-vector-28384937" title="flat a funny italian chef presenting his vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/49/37/flat-a-funny-italian-chef-presenting-his-vector-28384937.jpg" title="flat a funny italian chef presenting his" alt="flat a funny italian chef presenting his vector image"></noscript></a></li>
+						<li data-id="710587" data-title="chef" data-src="https://cdn3.vectorstock.com/i/thumbs/05/87/chef-vector-710587.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-vector-710587" title="chef vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/05/87/chef-vector-710587.jpg" title="chef" alt="chef vector image"></noscript></a></li>
+						<li data-id="22415651" data-title="cartoon man chef proffessional character" data-src="https://cdn2.vectorstock.com/i/thumbs/56/51/cartoon-man-chef-proffessional-character-vector-22415651.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-man-chef-proffessional-character-vector-22415651" title="cartoon man chef proffessional character vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/56/51/cartoon-man-chef-proffessional-character-vector-22415651.jpg" title="cartoon man chef proffessional character" alt="cartoon man chef proffessional character vector image"></noscript></a></li>
+						<li data-id="23891454" data-title="cartoon happy cute people cooking set isolated" data-src="https://cdn5.vectorstock.com/i/thumbs/14/54/cartoon-happy-cute-people-cooking-set-isolated-vector-23891454.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-happy-cute-people-cooking-set-isolated-vector-23891454" title="cartoon happy cute people cooking set isolated vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/14/54/cartoon-happy-cute-people-cooking-set-isolated-vector-23891454.jpg" title="cartoon happy cute people cooking set isolated" alt="cartoon happy cute people cooking set isolated vector image"></noscript></a></li>
+						<li data-id="13998881" data-title="cute chef mascot character" data-src="https://cdn2.vectorstock.com/i/thumbs/88/81/cute-chef-mascot-character-vector-13998881.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cute-chef-mascot-character-vector-13998881" title="cute chef mascot character vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/88/81/cute-chef-mascot-character-vector-13998881.jpg" title="cute chef mascot character" alt="cute chef mascot character vector image"></noscript></a></li>
+						<li data-id="20806377" data-title="culinary boss chef cooker baker in apron bag" data-src="https://cdn3.vectorstock.com/i/thumbs/63/77/culinary-boss-chef-cooker-baker-in-apron-bag-vector-20806377.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/culinary-boss-chef-cooker-baker-in-apron-bag-vector-20806377" title="culinary boss chef cooker baker in apron bag vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/63/77/culinary-boss-chef-cooker-baker-in-apron-bag-vector-20806377.jpg" title="culinary boss chef cooker baker in apron bag" alt="culinary boss chef cooker baker in apron bag vector image"></noscript></a></li>
+						<li data-id="31006524" data-title="chiefs asian nationality people" data-src="https://cdn5.vectorstock.com/i/thumbs/65/24/chiefs-asian-nationality-people-vector-31006524.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chiefs-asian-nationality-people-vector-31006524" title="chiefs asian nationality people vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/65/24/chiefs-asian-nationality-people-vector-31006524.jpg" title="chiefs asian nationality people" alt="chiefs asian nationality people vector image"></noscript></a></li>
+						<li data-id="20691660" data-title="flat cooking people in restaurant composition" data-src="https://cdn1.vectorstock.com/i/thumbs/16/60/flat-cooking-people-in-restaurant-composition-vector-20691660.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/flat-cooking-people-in-restaurant-composition-vector-20691660" title="flat cooking people in restaurant composition vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/16/60/flat-cooking-people-in-restaurant-composition-vector-20691660.jpg" title="flat cooking people in restaurant composition" alt="flat cooking people in restaurant composition vector image"></noscript></a></li>
+						<li data-id="34197695" data-title="senior chef wearing hat and uniform hand drawing" data-src="https://cdn1.vectorstock.com/i/thumbs/76/95/senior-chef-wearing-hat-and-uniform-hand-drawing-vector-34197695.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/senior-chef-wearing-hat-and-uniform-hand-drawing-vector-34197695" title="senior chef wearing hat and uniform hand drawing vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/76/95/senior-chef-wearing-hat-and-uniform-hand-drawing-vector-34197695.jpg" title="senior chef wearing hat and uniform hand drawing" alt="senior chef wearing hat and uniform hand drawing vector image"></noscript></a></li>
+						<li data-id="11663415" data-title="cartoon baker with fresh bread and a shovel in his" data-src="https://cdn1.vectorstock.com/i/thumbs/34/15/cartoon-baker-with-fresh-bread-and-a-shovel-in-his-vector-11663415.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-baker-with-fresh-bread-and-a-shovel-in-his-vector-11663415" title="cartoon baker with fresh bread and a shovel in his vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/34/15/cartoon-baker-with-fresh-bread-and-a-shovel-in-his-vector-11663415.jpg" title="cartoon baker with fresh bread and a shovel in his" alt="cartoon baker with fresh bread and a shovel in his vector image"></noscript></a></li>
+						<li data-id="20429313" data-title="flat design restaurant staffs" data-src="https://cdn4.vectorstock.com/i/thumbs/93/13/flat-design-restaurant-staffs-vector-20429313.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/flat-design-restaurant-staffs-vector-20429313" title="flat design restaurant staffs vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/93/13/flat-design-restaurant-staffs-vector-20429313.jpg" title="flat design restaurant staffs" alt="flat design restaurant staffs vector image"></noscript></a></li>
+						<li data-id="3841441" data-title="male chef" data-src="https://cdn2.vectorstock.com/i/thumbs/14/41/male-chef-vector-3841441.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/male-chef-vector-3841441" title="male chef vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/14/41/male-chef-vector-3841441.jpg" title="male chef" alt="male chef vector image"></noscript></a></li>
+						<li data-id="36901869" data-title="japanese man head icon cartoon" data-src="https://cdn5.vectorstock.com/i/thumbs/18/69/japanese-man-head-icon-cartoon-vector-36901869.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/japanese-man-head-icon-cartoon-vector-36901869" title="japanese man head icon cartoon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/18/69/japanese-man-head-icon-cartoon-vector-36901869.jpg" title="japanese man head icon cartoon" alt="japanese man head icon cartoon vector image"></noscript></a></li>
+						<li data-id="1857384" data-title="chef show blank board for use in advertising" data-src="https://cdn5.vectorstock.com/i/thumbs/73/84/chef-show-blank-board-for-use-in-advertising-vector-1857384.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-show-blank-board-for-use-in-advertising-vector-1857384" title="chef show blank board for use in advertising vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/73/84/chef-show-blank-board-for-use-in-advertising-vector-1857384.jpg" title="chef show blank board for use in advertising" alt="chef show blank board for use in advertising vector image"></noscript></a></li>
+						<li data-id="32020894" data-title="moustached chef icon" data-src="https://cdn5.vectorstock.com/i/thumbs/08/94/moustached-chef-icon-vector-32020894.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/moustached-chef-icon-vector-32020894" title="moustached chef icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/08/94/moustached-chef-icon-vector-32020894.jpg" title="moustached chef icon" alt="moustached chef icon vector image"></noscript></a></li>
+						<li data-id="34385118" data-title="cartoon cheerful chef cook showing" data-src="https://cdn4.vectorstock.com/i/thumbs/51/18/cartoon-cheerful-chef-cook-showing-vector-34385118.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cartoon-cheerful-chef-cook-showing-vector-34385118" title="cartoon cheerful chef cook showing vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/51/18/cartoon-cheerful-chef-cook-showing-vector-34385118.jpg" title="cartoon cheerful chef cook showing" alt="cartoon cheerful chef cook showing vector image"></noscript></a></li>
+						<li data-id="28323766" data-title="happy kids with different professions smiling" data-src="https://cdn2.vectorstock.com/i/thumbs/37/66/happy-kids-with-different-professions-smiling-vector-28323766.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/happy-kids-with-different-professions-smiling-vector-28323766" title="happy kids with different professions smiling vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/37/66/happy-kids-with-different-professions-smiling-vector-28323766.jpg" title="happy kids with different professions smiling" alt="happy kids with different professions smiling vector image"></noscript></a></li>
+						<li data-id="27038444" data-title="restaurant staff - cartoon people characters" data-src="https://cdn5.vectorstock.com/i/thumbs/84/44/restaurant-staff-cartoon-people-characters-vector-27038444.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/restaurant-staff-cartoon-people-characters-vector-27038444" title="restaurant staff - cartoon people characters vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/84/44/restaurant-staff-cartoon-people-characters-vector-27038444.jpg" title="restaurant staff - cartoon people characters" alt="restaurant staff - cartoon people characters vector image"></noscript></a></li>
+						<li data-id="33134773" data-title="character cook profession men worker occupation" data-src="https://cdn4.vectorstock.com/i/thumbs/47/73/character-cook-profession-men-worker-occupation-vector-33134773.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/character-cook-profession-men-worker-occupation-vector-33134773" title="character cook profession men worker occupation vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/47/73/character-cook-profession-men-worker-occupation-vector-33134773.jpg" title="character cook profession men worker occupation" alt="character cook profession men worker occupation vector image"></noscript></a></li>
+						<li data-id="31962069" data-title="chef in hat logo restaurant cafe" data-src="https://cdn5.vectorstock.com/i/thumbs/20/69/chef-in-hat-logo-restaurant-cafe-vector-31962069.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-in-hat-logo-restaurant-cafe-vector-31962069" title="chef in hat logo restaurant cafe vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/20/69/chef-in-hat-logo-restaurant-cafe-vector-31962069.jpg" title="chef in hat logo restaurant cafe" alt="chef in hat logo restaurant cafe vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-similar-to_13630524" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_JuliarS" rel="nofollow">JuliarS</a></strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/16/13/cook-icon-cartoon-vector-13581613.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cook-icon-cartoon-vector-13581613" title="cook icon cartoon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/16/13/cook-icon-cartoon-vector-13581613.jpg" title="cook icon cartoon" alt="cook icon cartoon vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/38/73/man-in-uniform-icon-comics-style-vector-8873873.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/man-in-uniform-icon-comics-style-vector-8873873" title="man in uniform icon comics style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/38/73/man-in-uniform-icon-comics-style-vector-8873873.jpg" title="man in uniform icon comics style" alt="man in uniform icon comics style vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/15/92/a-man-in-white-shirt-black-waistcoat-vector-13581592.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/a-man-in-white-shirt-black-waistcoat-vector-13581592" title="a man in white shirt black waistcoat vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/15/92/a-man-in-white-shirt-black-waistcoat-vector-13581592.jpg" title="a man in white shirt black waistcoat" alt="a man in white shirt black waistcoat vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/58/87/cook-comics-icon-vector-7395887.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cook-comics-icon-vector-7395887" title="cook comics icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/58/87/cook-comics-icon-vector-7395887.jpg" title="cook comics icon" alt="cook comics icon vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/92/38/chef-icon-cartoon-vector-13629238.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-icon-cartoon-vector-13629238" title="chef icon cartoon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/92/38/chef-icon-cartoon-vector-13629238.jpg" title="chef icon cartoon" alt="chef icon cartoon vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/76/45/chef-cartoon-icon-vector-7427645.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-cartoon-icon-vector-7427645" title="chef cartoon icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/76/45/chef-cartoon-icon-vector-7427645.jpg" title="chef cartoon icon" alt="chef cartoon icon vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/79/68/chef-cartoon-icon-vector-6727968.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-cartoon-icon-vector-6727968" title="chef cartoon icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/79/68/chef-cartoon-icon-vector-6727968.jpg" title="chef cartoon icon" alt="chef cartoon icon vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/02/69/chef-icon-in-comics-style-vector-8740269.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-icon-in-comics-style-vector-8740269" title="chef icon in comics style vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/02/69/chef-icon-in-comics-style-vector-8740269.jpg" title="chef icon in comics style" alt="chef icon in comics style vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/33/83/delivery-man-holding-and-carrying-cardbox-icon-vector-8633383.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/delivery-man-holding-and-carrying-cardbox-icon-vector-8633383" title="delivery man holding and carrying cardbox icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/33/83/delivery-man-holding-and-carrying-cardbox-icon-vector-8633383.jpg" title="delivery man holding and carrying cardbox icon" alt="delivery man holding and carrying cardbox icon vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/16/20/businessman-icon-cartoon-vector-13581620.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/businessman-icon-cartoon-vector-13581620" title="businessman icon cartoon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/16/20/businessman-icon-cartoon-vector-13581620.jpg" title="businessman icon cartoon" alt="businessman icon cartoon vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="7349900" data-title="chef cook avatar cartoon icon" data-src="https://cdn1.vectorstock.com/i/thumbs/99/00/chef-cook-avatar-cartoon-icon-vector-7349900.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-cook-avatar-cartoon-icon-vector-7349900" title="chef cook avatar cartoon icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/99/00/chef-cook-avatar-cartoon-icon-vector-7349900.jpg" title="chef cook avatar cartoon icon" alt="chef cook avatar cartoon icon vector image vector image"></noscript></a></li>
+						<li data-id="13844488" data-title="100 people icons set cartoon style" data-src="https://cdn4.vectorstock.com/i/thumbs/44/88/100-people-icons-set-cartoon-style-vector-13844488.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/100-people-icons-set-cartoon-style-vector-13844488" title="100 people icons set cartoon style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/44/88/100-people-icons-set-cartoon-style-vector-13844488.jpg" title="100 people icons set cartoon style" alt="100 people icons set cartoon style vector image vector image"></noscript></a></li>
+						<li data-id="6761662" data-title="comics hockey player" data-src="https://cdn3.vectorstock.com/i/thumbs/16/62/comics-hockey-player-vector-6761662.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/comics-hockey-player-vector-6761662" title="comics hockey player vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/16/62/comics-hockey-player-vector-6761662.jpg" title="comics hockey player" alt="comics hockey player vector image vector image"></noscript></a></li>
+						<li data-id="13838311" data-title="people icons set cartoon style" data-src="https://cdn2.vectorstock.com/i/thumbs/83/11/people-icons-set-cartoon-style-vector-13838311.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-icons-set-cartoon-style-vector-13838311" title="people icons set cartoon style vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/83/11/people-icons-set-cartoon-style-vector-13838311.jpg" title="people icons set cartoon style" alt="people icons set cartoon style vector image vector image"></noscript></a></li>
+						<li data-id="7612894" data-title="train conductor cartoon icon" data-src="https://cdn5.vectorstock.com/i/thumbs/28/94/train-conductor-cartoon-icon-vector-7612894.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/train-conductor-cartoon-icon-vector-7612894" title="train conductor cartoon icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/28/94/train-conductor-cartoon-icon-vector-7612894.jpg" title="train conductor cartoon icon" alt="train conductor cartoon icon vector image vector image"></noscript></a></li>
+						<li data-id="8969370" data-title="smiling emoticon in sunglasses icon cartoon style" data-src="https://cdn1.vectorstock.com/i/thumbs/93/70/smiling-emoticon-in-sunglasses-icon-cartoon-style-vector-8969370.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/smiling-emoticon-in-sunglasses-icon-cartoon-style-vector-8969370" title="smiling emoticon in sunglasses icon cartoon style vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/93/70/smiling-emoticon-in-sunglasses-icon-cartoon-style-vector-8969370.jpg" title="smiling emoticon in sunglasses icon cartoon style" alt="smiling emoticon in sunglasses icon cartoon style vector image vector image"></noscript></a></li>
+						<li data-id="22848925" data-title="profession comics icons set" data-src="https://cdn1.vectorstock.com/i/thumbs/89/25/profession-comics-icons-set-vector-22848925.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/profession-comics-icons-set-vector-22848925" title="profession comics icons set vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/89/25/profession-comics-icons-set-vector-22848925.jpg" title="profession comics icons set" alt="profession comics icons set vector image vector image"></noscript></a></li>
+						<li data-id="13583142" data-title="prisoner in hat with number icon icon cartoon" data-src="https://cdn3.vectorstock.com/i/thumbs/31/42/prisoner-in-hat-with-number-icon-icon-cartoon-vector-13583142.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/prisoner-in-hat-with-number-icon-icon-cartoon-vector-13583142" title="prisoner in hat with number icon icon cartoon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/31/42/prisoner-in-hat-with-number-icon-icon-cartoon-vector-13583142.jpg" title="prisoner in hat with number icon icon cartoon" alt="prisoner in hat with number icon icon cartoon vector image vector image"></noscript></a></li>
+						<li data-id="6971377" data-title="cook chef isometric 3d icon" data-src="https://cdn3.vectorstock.com/i/thumbs/13/77/cook-chef-isometric-3d-icon-vector-6971377.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cook-chef-isometric-3d-icon-vector-6971377" title="cook chef isometric 3d icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/13/77/cook-chef-isometric-3d-icon-vector-6971377.jpg" title="cook chef isometric 3d icon" alt="cook chef isometric 3d icon vector image vector image"></noscript></a></li>
+						<li data-id="13577554" data-title="profession icons set cartoon" data-src="https://cdn5.vectorstock.com/i/thumbs/75/54/profession-icons-set-cartoon-vector-13577554.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/profession-icons-set-cartoon-vector-13577554" title="profession icons set cartoon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/75/54/profession-icons-set-cartoon-vector-13577554.jpg" title="profession icons set cartoon" alt="profession icons set cartoon vector image vector image"></noscript></a></li>
+						<li data-id="13838340" data-title="working people icons set cartoon style" data-src="https://cdn1.vectorstock.com/i/thumbs/83/40/working-people-icons-set-cartoon-style-vector-13838340.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/working-people-icons-set-cartoon-style-vector-13838340" title="working people icons set cartoon style vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/83/40/working-people-icons-set-cartoon-style-vector-13838340.jpg" title="working people icons set cartoon style" alt="working people icons set cartoon style vector image vector image"></noscript></a></li>
+						<li data-id="6729551" data-title="chef cook holds a tray" data-src="https://cdn2.vectorstock.com/i/thumbs/95/51/chef-cook-holds-a-tray-vector-6729551.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/chef-cook-holds-a-tray-vector-6729551" title="chef cook holds a tray vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/95/51/chef-cook-holds-a-tray-vector-6729551.jpg" title="chef cook holds a tray" alt="chef cook holds a tray vector image vector image"></noscript></a></li>
+						<li data-id="22849658" data-title="avatar icons set cartoon style" data-src="https://cdn4.vectorstock.com/i/thumbs/96/58/avatar-icons-set-cartoon-style-vector-22849658.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/avatar-icons-set-cartoon-style-vector-22849658" title="avatar icons set cartoon style vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/96/58/avatar-icons-set-cartoon-style-vector-22849658.jpg" title="avatar icons set cartoon style" alt="avatar icons set cartoon style vector image vector image"></noscript></a></li>
+						<li data-id="8634713" data-title="asian man in a conical hat sells fruit icon" data-src="https://cdn4.vectorstock.com/i/thumbs/47/13/asian-man-in-a-conical-hat-sells-fruit-icon-vector-8634713.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/asian-man-in-a-conical-hat-sells-fruit-icon-vector-8634713" title="asian man in a conical hat sells fruit icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/47/13/asian-man-in-a-conical-hat-sells-fruit-icon-vector-8634713.jpg" title="asian man in a conical hat sells fruit icon" alt="asian man in a conical hat sells fruit icon vector image vector image"></noscript></a></li>
+						<li data-id="13834691" data-title="100 work icons set cartoon style" data-src="https://cdn2.vectorstock.com/i/thumbs/46/91/100-work-icons-set-cartoon-style-vector-13834691.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/100-work-icons-set-cartoon-style-vector-13834691" title="100 work icons set cartoon style vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/46/91/100-work-icons-set-cartoon-style-vector-13834691.jpg" title="100 work icons set cartoon style" alt="100 work icons set cartoon style vector image vector image"></noscript></a></li>
+						<li data-id="7902017" data-title="businessman icon in cartoon style" data-src="https://cdn3.vectorstock.com/i/thumbs/20/17/businessman-icon-in-cartoon-style-vector-7902017.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/businessman-icon-in-cartoon-style-vector-7902017" title="businessman icon in cartoon style vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/20/17/businessman-icon-in-cartoon-style-vector-7902017.jpg" title="businessman icon in cartoon style" alt="businessman icon in cartoon style vector image vector image"></noscript></a></li>
+						<li data-id="13846045" data-title="businessman in a puzzle piece icon cartoon" data-src="https://cdn1.vectorstock.com/i/thumbs/60/45/businessman-in-a-puzzle-piece-icon-cartoon-vector-13846045.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/businessman-in-a-puzzle-piece-icon-cartoon-vector-13846045" title="businessman in a puzzle piece icon cartoon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/60/45/businessman-in-a-puzzle-piece-icon-cartoon-vector-13846045.jpg" title="businessman in a puzzle piece icon cartoon" alt="businessman in a puzzle piece icon cartoon vector image vector image"></noscript></a></li>
+						<li data-id="7426757" data-title="scientist in protective suit cartoon icon" data-src="https://cdn3.vectorstock.com/i/thumbs/67/57/scientist-in-protective-suit-cartoon-icon-vector-7426757.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/scientist-in-protective-suit-cartoon-icon-vector-7426757" title="scientist in protective suit cartoon icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/67/57/scientist-in-protective-suit-cartoon-icon-vector-7426757.jpg" title="scientist in protective suit cartoon icon" alt="scientist in protective suit cartoon icon vector image vector image"></noscript></a></li>
+						<li data-id="13844499" data-title="100 profession icons set cartoon style" data-src="https://cdn5.vectorstock.com/i/thumbs/44/99/100-profession-icons-set-cartoon-style-vector-13844499.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/100-profession-icons-set-cartoon-style-vector-13844499" title="100 profession icons set cartoon style vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/44/99/100-profession-icons-set-cartoon-style-vector-13844499.jpg" title="100 profession icons set cartoon style" alt="100 profession icons set cartoon style vector image vector image"></noscript></a></li>
+						<li data-id="6727926" data-title="firefighter cartoon character" data-src="https://cdn2.vectorstock.com/i/thumbs/79/26/firefighter-cartoon-character-vector-6727926.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/firefighter-cartoon-character-vector-6727926" title="firefighter cartoon character vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/79/26/firefighter-cartoon-character-vector-6727926.jpg" title="firefighter cartoon character" alt="firefighter cartoon character vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_JuliarS" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/man-vectors">Man</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cartoon-vectors">Cartoon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/chef-vectors">Chef</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/clean-vectors">Clean</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/smile-vectors">Smile</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/restaurant-vectors">Restaurant</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/in-vectors">In</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/uniform-vectors">Uniform</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/person-vectors">Person</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/people-vectors">People</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/professional-vectors">Professional</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/ad-vectors">Ad</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/smiling-vectors">Smiling</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/worker-vectors">Worker</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/apron-vectors">Apron</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/kitchen-vectors">Kitchen</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/happy-vectors">Happy</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/copyspace-vectors">Copyspace</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cook-vectors">Cook</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cheerful-vectors">Cheerful</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/hat-vectors">Hat</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cuisine-vectors">Cuisine</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/showing-vectors">Showing</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cooking-vectors">Cooking</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/advertisement-vectors">Advertisement</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/male-vectors">Male</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/advertising-vectors">Advertising</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/green-vectors">Green</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/culinary-vectors">Culinary</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/placard-vectors">Placard</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/joyful-vectors">Joyful</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/vegetarian-vectors">Vegetarian</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/dinner-vectors">Dinner</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/empty-vectors">Empty</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/handsome-vectors">Handsome</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/staff-vectors">Staff</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/profession-vectors">Profession</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/holding-vectors">Holding</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/poster-vectors">Poster</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/job-vectors">Job</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/presentation-vectors">Presentation</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/young-vectors">Young</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/service-vectors">Service</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/gourmet-vectors">Gourmet</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/standing-vectors">Standing</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/menu-vectors">Menu</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/presenting-vectors">Presenting</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/" title="Home">Home</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.vectorstock.com/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="https://www.vectorstock.com/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="https://www.vectorstock.com/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+					<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="https://www.vectorstock.com/signup" title="Join Now">Join Now</a></li>
+						<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="https://www.vectorstock.com/?signup=1&amp;contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="https://www.vectorstock.com/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				© 2021. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+	</div></footer>
+
+
+	<script type="text/javascript" nonce="iXl0UD9DaZtRZIYkLJZJXmVysWYGByaCURtHIKLA61k=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":38,"atts":"SRoHQ14YGEo=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script>
+
+
+
+</body></html>
